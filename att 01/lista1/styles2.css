@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(206, 248, 183);
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+background-color: rgba(248, 117, 18, 0.362);
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    width: 30%;
+}
+#labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    align-items: flex-start;
+}
+label {
+    font-weight: bold;
+}
+#inputs {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+label, input, select {
+    margin: 3px;
+}
+
+.margin-right {
+    margin-right: 2%;
+}
+
+.tipo input, .perfil input {
+    margin-right: 5px;
+}

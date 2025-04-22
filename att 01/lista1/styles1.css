@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(230, 179, 234);
+}
+
+main {
+    width: 70%;
+}
+
+label {
+    font-weight: bolder;
+}
+
+input:not([type='submit']) {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type='submit'] {
+    border: solid 1px rgb(0, 0, 180);
+}
